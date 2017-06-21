@@ -116,6 +116,14 @@ class ChatViewController: UIViewController {
         }
         
         
+        guard (navigationController?.popToRootViewController(animated: true)) != nil
+            else {
+                print("No view controller to pop off!")
+                return
+        }
+        
+        
+        
         
     }
     
