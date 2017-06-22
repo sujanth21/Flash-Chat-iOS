@@ -13,6 +13,7 @@ import Firebase
 class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
     
     // Declare instance variables here
+    var messageArray : [Message] = [Message]()
     
 
     
